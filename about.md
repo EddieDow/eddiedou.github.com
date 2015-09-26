@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+一介书生，既无缚鸡之力，亦无冲天之志，更无济世之才，可谓从戎无望、报国无门。相貌尚可，浓眉方脸，天庭饱满.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+爱好甚广，三教九流，四诗五经，略有涉猎，但用心不专，无一精通；琴棋书画，有一不通。平生信奉：安全第一，健康至上，故不沾黄赌毒，远离嫖饮吹；嗜茶，却无茶品，不分品次，皆大壶牛饮，有附庸风雅之嫌；好上网，每日无网不欢，妻常戏言：网第一，吾第二，知其弊，奈何陋习难改，蹉跎至今。 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+自少惰懒，万幸父母打点，智力尚可，福星长伴，懵懂间已完修身成家之大业，常感才疏学浅，上违往日师长谆谆教导之语，下背今朝学徒虔虔向学之心；长叹庸碌无为，上辜平日父母滴滴养育之恩，下负一向妻子潺潺关爱之情。
+ 
+
+不望闻达于诸侯，富贵与人间；只求安逸于现世，常乐予今生。
