@@ -81,3 +81,4 @@ Server IP列表是有权重机制的，DNS解析返回的IP很明显具有最高
 数据格式优化的效果尤其明显，采用新的Protocol Buffer数据格式+Gzip压缩后的Payload大小降低了15%-45%。数据序列化耗时下降了80%-90%。
 
 业界网络性能优化的新技术方向，目前最有潜力的是Google推出的SPDY和QUIC协议。
+![image](http://7xn2gs.com1.z0.glb.clouddn.com/0D2A6011-630A-4D16-9DB6-07981C3F0A88.png)

@@ -6,8 +6,8 @@
 </description>
     <link>http://eddiedou.github.io/</link>
     <atom:link href="http://eddiedou.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Sep 2015 13:03:00 +0800</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2015 13:03:00 +0800</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2015 13:37:55 +0800</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2015 13:37:55 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -107,7 +107,8 @@
 &lt;p&gt;经过上面的优化手段，携程App的核心服务成功率都在99%以上。注意这是客户端采集的服务成功率，即用户感知到的网络服务成功率，失败量中包含了客户端无网络和服务端的错误。网络服务平均耗时下降了150-200ms。我们的目标是除2G网络外，核心业务的网络服务成功率都能够达到三个九。
 数据格式优化的效果尤其明显，采用新的Protocol Buffer数据格式+Gzip压缩后的Payload大小降低了15%-45%。数据序列化耗时下降了80%-90%。&lt;/p&gt;
 
-&lt;p&gt;业界网络性能优化的新技术方向，目前最有潜力的是Google推出的SPDY和QUIC协议。&lt;/p&gt;
+&lt;p&gt;业界网络性能优化的新技术方向，目前最有潜力的是Google推出的SPDY和QUIC协议。
+&lt;img src=&quot;http://7xn2gs.com1.z0.glb.clouddn.com/0D2A6011-630A-4D16-9DB6-07981C3F0A88.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 20:40:25 +0800</pubDate>
         <link>http://eddiedou.github.io/mobile/performance/2015/09/26/app_performance_ctrip.html</link>
