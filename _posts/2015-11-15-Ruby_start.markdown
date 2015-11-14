@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby 初学"
-date:   2015-10-18 18:51:25
+date:   2015-11-15 18:51:25
 categories: Ruby
 ---
  
