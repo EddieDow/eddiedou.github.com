@@ -6,9 +6,93 @@
 </description>
     <link>http://eddiedou.github.io/</link>
     <atom:link href="http://eddiedou.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Oct 2015 23:12:36 +0800</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2015 23:12:36 +0800</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 14 Nov 2015 18:47:23 +0800</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2015 18:47:23 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Ruby 初学</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;homebrew&quot;&gt;Homebrew&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在Mac上准备Ruby环境之前，推荐安装Homebrew(&lt;a href=&quot;http://www.amazon.cn/%E4%BB%8A%E9%98%85%E2%80%A2%E7%BB%8F%E6%B5%8E-%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%86%B0%E5%86%B7%E7%BB%8F%E6%B5%8E%E7%9C%9F%E7%9B%B8-%E8%A2%81%E6%B5%A9/dp/B007P7RK04&quot; target=&quot;_blank&quot;&gt;官网&lt;/a&gt;),只需一行&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;xcode&quot;&gt;Xcode&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;预先安装Xcode，因为后面会用到相关的command line tools&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;rvm&quot;&gt;RVM&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;登录&lt;a href=&quot;http://www.rvm.io/&quot; target=&quot;_blank&quot;&gt;官网&lt;/a&gt;，可以看到安装RVM需要两步，第一步：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装过程中如果遇到错误 “gpg: command not found” error during RVM installation?&lt;/p&gt;
+
+&lt;p&gt;请在Terminal 内运行下面命令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install gnupg gnupg2&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;关于： GnuPG (with binary name gpg) is an application used for public key encryption, but also verification of signatures (cryptographic signatures, that also can validate the publisher if used correctly).&lt;/p&gt;
+
+&lt;p&gt;第二步骤&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\curl -sSL https://get.rvm.io | bash -s stable&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;安装完毕后 在终端内运行以下命令，可以看到本地的Ruby 版本。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rvm -v&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;本地安装版本列表命令 。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rvm list&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;远端可用Ruby版本列表命令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rvm list —remote
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;section&quot;&gt;开发工具&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;喜欢使用IDE的推荐使用RubyMine，当然你也可以用Vi,Sublime等文本工具。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;section-1&quot;&gt;更多&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gem = Ruby标准库&lt;/p&gt;
+
+&lt;p&gt;ri 命令行工具查看文档&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ri —server 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在浏览器内键入就看查看本地文档&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://localhost:8214/
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+        <pubDate>Mon, 19 Oct 2015 02:51:25 +0800</pubDate>
+        <link>http://eddiedou.github.io/ruby/2015/10/19/ruby-start.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/ruby/2015/10/19/ruby-start.html</guid>
+        
+        
+        <category>Ruby</category>
+        
+      </item>
     
       <item>
         <title>笔记: 你所不知道的冰冷的经济真相</title>
@@ -201,8 +285,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Oct 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china_ice_economic_truth.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china_ice_economic_truth.html</guid>
+        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china-ice-economic-truth.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china-ice-economic-truth.html</guid>
         
         
         <category>经济</category>
@@ -229,8 +313,8 @@
 
 </description>
         <pubDate>Sun, 18 Oct 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what_is_hcm%20copy.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what_is_hcm%20copy.html</guid>
+        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what-is-hcm.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what-is-hcm.html</guid>
         
         
         <category>经济</category>
@@ -296,8 +380,8 @@
 
 </description>
         <pubDate>Mon, 28 Sep 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey_to_west.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey_to_west.html</guid>
+        <link>http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey-to-west.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey-to-west.html</guid>
         
         
         <category>文学</category>
@@ -405,8 +489,8 @@
 &lt;img src=&quot;http://7xn2gs.com1.z0.glb.clouddn.com/0D2A6011-630A-4D16-9DB6-07981C3F0A88.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 20:40:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/mobile/performance/2015/09/26/app_performance_ctrip.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/mobile/performance/2015/09/26/app_performance_ctrip.html</guid>
+        <link>http://eddiedou.github.io/mobile/performance/2015/09/26/app-performance-ctrip.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/mobile/performance/2015/09/26/app-performance-ctrip.html</guid>
         
         
         <category>mobile</category>
@@ -540,8 +624,8 @@
 &lt;p&gt;决定投资者投资成败的关键在于投资者的耐心、独立精神、基本常识、对痛苦的忍耐力、坦率、超然、坚持不懈、脑袋灵活、主动承认错误的精神，以及不受别人慌乱的影响，坚持到投资获得成功的能力。至关重要的是要能够抵抗得了你人性的弱点。&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 07:26:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/investment/2015/09/26/peter_lynch%20copy.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/investment/2015/09/26/peter_lynch%20copy.html</guid>
+        <link>http://eddiedou.github.io/investment/2015/09/26/peter-lynch-copy.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/investment/2015/09/26/peter-lynch-copy.html</guid>
         
         
         <category>investment</category>
