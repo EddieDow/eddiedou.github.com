@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>把事情做到更好</title>
-  <meta name="description" content="Miracles sometimes occur, but one has to work terribly for them. 
-">
+  <title>Ruby 初学</title>
+  <meta name="description" content="      Homebrew  ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://eddiedou.github.io/">
+  <link rel="canonical" href="http://eddiedou.github.io/ruby/2015/11/16/ruby-start.html">
   <link rel="alternate" type="application/rss+xml" title="把事情做到更好" href="http://eddiedou.github.io/feed.xml" />
 </head>
 
@@ -55,70 +54,88 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Ruby 初学</h1>
+    <p class="post-meta">Nov 16, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <ul>
+  <li>
+    <h2 id="homebrew">Homebrew</h2>
+  </li>
+</ul>
+
+<p>在Mac上准备Ruby环境之前，推荐安装Homebrew(<a href="http://www.amazon.cn/%E4%BB%8A%E9%98%85%E2%80%A2%E7%BB%8F%E6%B5%8E-%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%86%B0%E5%86%B7%E7%BB%8F%E6%B5%8E%E7%9C%9F%E7%9B%B8-%E8%A2%81%E6%B5%A9/dp/B007P7RK04" target="_blank">官网</a>),只需一行</p>
+<pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</code></pre>
+
+<ul>
+  <li>
+    <h2 id="xcode">Xcode</h2>
+  </li>
+</ul>
+
+<p>预先安装Xcode，因为后面会用到相关的command line tools</p>
+
+<ul>
+  <li>
+    <h2 id="rvm">RVM</h2>
+  </li>
+</ul>
+
+<p>登录<a href="http://www.rvm.io/" target="_blank">官网</a>，可以看到安装RVM需要两步，第一步：</p>
+<pre><code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+</code></pre>
+
+<p>安装过程中如果遇到错误 “gpg: command not found” error during RVM installation?</p>
+
+<p>请在Terminal 内运行下面命令</p>
+<pre><code>brew install gnupg gnupg2</code></pre>
+
+<p>关于： GnuPG (with binary name gpg) is an application used for public key encryption, but also verification of signatures (cryptographic signatures, that also can validate the publisher if used correctly).</p>
+
+<p>第二步骤</p>
+<pre><code>\curl -sSL https://get.rvm.io | bash -s stable</code></pre>
+
+<p>安装完毕后 在终端内运行以下命令，可以看到本地的Ruby 版本。</p>
+<pre><code>rvm -v</code></pre>
+
+<p>本地安装版本列表命令 。</p>
+<pre><code>rvm list</code></pre>
+<p>远端可用Ruby版本列表命令</p>
+<pre><code>rvm list —remote
+</code></pre>
+
+<ul>
+  <li>
+    <h2 id="section">开发工具</h2>
+  </li>
+</ul>
+
+<p>喜欢使用IDE的推荐使用RubyMine，当然你也可以用Vi,Sublime等文本工具。</p>
+
+<ul>
+  <li>
+    <h2 id="section-1">更多</h2>
+  </li>
+</ul>
+
+<p>Gem = Ruby标准库</p>
+
+<p>ri 命令行工具查看文档</p>
+
+<pre><code>ri —server 
+</code></pre>
+
+<p>在浏览器内键入就看查看本地文档</p>
+<pre><code>http://localhost:8214/
+</code></pre>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 16, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/mobile/2015/11/16/mobile-patent.html">移动应用专利初探</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 16, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/ruby/2015/11/16/ruby-start.html">Ruby 初学</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 19, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/%E7%BB%8F%E6%B5%8E/2015/10/19/china-ice-economic-truth.html">笔记: 你所不知道的冰冷的经济真相</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 18, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/%E7%BB%8F%E6%B5%8E/2015/10/18/what-is-hcm.html">HCM基础</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 28, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/%E6%96%87%E5%AD%A6/2015/09/28/journey-to-west.html">《西游记》解读</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 26, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/mobile/performance/2015/09/26/app-performance-ctrip.html">App的网络性能优化实践</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 26, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/investment/2015/09/26/peter-lynch-copy.html">彼得林奇的名言</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
