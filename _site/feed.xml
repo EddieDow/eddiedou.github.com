@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>把事情做到更好</title>
+    <title>每天四十五分钟</title>
     <description>Miracles sometimes occur, but one has to work terribly for them. 
 </description>
     <link>http://eddiedou.github.io/</link>
     <atom:link href="http://eddiedou.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Nov 2015 08:49:22 +0800</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2015 08:49:22 +0800</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Thu, 03 Dec 2015 10:54:26 +0800</pubDate>
+    <lastBuildDate>Thu, 03 Dec 2015 10:54:26 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>VR和AR</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;vr&quot;&gt;VR&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;VR(Virtual Reality)，虚拟现实，或称灵境技术，看到的场景和人物全是假的，是把你的意识代入一个虚拟的世界。类似于游戏制作，创作出一个虚拟场景供人体验，其核心是graphics的各项技术的发挥。和我们接触最多的就是应用在游戏上，可以说是传统游戏娱乐设备的一个升级版，主要关注虚拟场景是否有良好的体验。而与真实场景是否相关，他们并不关心。VR设备往往是浸入式的，典型的设备就是oculus rift。影视文学上的参照有：《黑客帝国》，《盗梦空间》，《刀剑神域》，《三体》V装具.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;ar&quot;&gt;AR&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AR(Augmented Reality)，增强现实，看到的场景和人物一部分是真一部分是假，是把虚拟的信息带入到现实世界中。更准确的说是在真实场景上进行理解，虚拟场景只是对真实场景的补充，或者方便交互。AR应用了很多computer vision的技术。AR设备强调复原人类的视觉的功能，比如自动去识别跟踪物体，而不是我手动去指出；自主跟踪并且对周围真实场景进行3D建模，而不是我打开Maya照着场景做一个极为相似的。典型的AR设备就是普通移动端手机，升级版如Google Project Tango。影视文学上的参照有：《少数派报告》，《钢铁侠》操作界面，《电磁线圈》，《彩虹尽头》&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;section&quot;&gt;应用领域&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;VR 与AR由于技术原理的不同，各自的应用领域也不尽相同。说到两者的领域，首先想到的可能体现在游戏方面，因为所了解到的新闻大致都体现在游戏方面。参加过相关展会的人都知道，体验者装备一个头戴设备和手柄之类的外设，突然或尖叫打大笑或者作出一些滑稽的动作，整个身心都融入其中。当然了，不可能仅仅只在游戏方面有所表现。虚拟现实技术在教育培训领域也大有用武之地，同时还包括企业的一些培训项目等等。增强现实技术科广泛用于影视、教育、娱乐等领域。在游戏体验方面，与虚拟现实属于完全不同的体验，是在现实环境基础上叠加数字图像，不过由于技术尚未成熟的原因，目前在增强现实方面想看到投射图像的话，还需佩戴相应的设备。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;section-1&quot;&gt;更多&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AR和VR只是因为现阶段技术不成熟而导致的两个分支，随着科技的发展，这两个技术必定会结合为一个新的技术。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Dec 2015 02:51:25 +0800</pubDate>
+        <link>http://eddiedou.github.io/tech/2015/12/03/vr_ar.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/tech/2015/12/03/vr_ar.html</guid>
+        
+        
+        <category>Tech</category>
+        
+      </item>
     
       <item>
         <title>移动应用专利初探</title>
@@ -20,9 +63,10 @@
 
 &lt;p&gt;先看两个魅族2012年申请的两个专利：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    *一是关于用户在发送信息或通话时的操作便捷性方面。举一个生活中的例子，张三给你发短信时提到了李四这个人，那么采用了新专利的Flyme系统，会自动识别“李四”并到通讯录中查找是否有这个人的信息，如果有，则可以直接给李四拨打电话，而无需进入通讯录查找。
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    *一是关于用户在发送信息或通话时的操作便捷性方面。举一个生活中的例子，张三给你发短信时提到了李四这个人，那么采用了新专利的Flyme系统，会自动识别“李四”并到通讯录中查找是否有这个人的信息，如果有，则可以直接给李四拨打电话，而无需进入通讯录查找。
     *二是能够使手机实现根据用户的位置确定不同的手机模式。即用户可以预先设定手机在不同地点的工作模式，比如当手机处在教室中时，手机可以根据定位用户的地理位置，自动切换为提前设置好的振动模式，离开教室切换为响铃模式，这个过程中不需要人工干预，非常智能化。 
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -31,8 +75,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 16 Nov 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/mobile/2015/11/16/mobile-patent.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/mobile/2015/11/16/mobile-patent.html</guid>
+        <link>http://eddiedou.github.io/mobile/2015/11/16/mobile_patent.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/mobile/2015/11/16/mobile_patent.html</guid>
         
         
         <category>Mobile</category>
@@ -115,8 +159,8 @@
 
 </description>
         <pubDate>Mon, 16 Nov 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/ruby/2015/11/16/ruby-start.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/ruby/2015/11/16/ruby-start.html</guid>
+        <link>http://eddiedou.github.io/ruby/2015/11/16/Ruby_start.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/ruby/2015/11/16/Ruby_start.html</guid>
         
         
         <category>Ruby</category>
@@ -154,11 +198,12 @@
 
 &lt;p&gt;中国是明显的政府主导经济，而政府主导经济的负面结果明显多于正面&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *  效率低下，经济决策严重失误。
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *  效率低下，经济决策严重失误。
        *  必然依赖投资拉动，导致产能过剩，通货膨胀严重。
        *  财富浪费严重。
        *  效率低下的国企和国进民退。
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -185,10 +230,11 @@
 
 &lt;p&gt;保增长，就要靠经济 3 架马车:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *  消费
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *  消费
        *  投资
        *  出口
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;消费：&lt;/strong&gt;依靠消费升级的模式来启动内需目前到了瓶颈（从八十年代小家电——90 年代家用电器——2000 年房产与汽车），消费逐渐低迷(从过去在 GDP 比例从35%已经跌到 2000年的27%)。在分配制度不合理造成民穷的前提下，“拉内需，促消费” 完全是个伪命题。&lt;/p&gt;
 
@@ -211,26 +257,29 @@
 
 &lt;p&gt;中国股市对管理层的用途&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *  为亏损的国有企业买单
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *  为亏损的国有企业买单
        *  货币蓄水池
        *  吸纳超发的货币再蒸发掉
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;关于房市&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *地方经济已经被绑架房地产经济绑架 (地方政府由于分税制变成了吃饭财政，只能靠土地出让金提高财政收入)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *地方经济已经被绑架房地产经济绑架 (地方政府由于分税制变成了吃饭财政，只能靠土地出让金提高财政收入)
        *由于货币超发，房市又要发挥货币蓄水池的作用，导致房价越来越高。
        *为了抑制制造业资金过快流进房市，政府在装模作样的的调控房地产，如禁止非房地产为主业的央企开展房地产行业。
        *房地产在眼下中国经济支柱产业之一。
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;将来：&lt;/strong&gt; 股改+土地+人民币国际化&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *股市: 规范化股市和扩大股市规模。(新三板 + 上海战略新兴板)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *股市: 规范化股市和扩大股市规模。(新三板 + 上海战略新兴板)
        *土地: 土地确权，可以买卖、流转、抵押，影响力请参照商品房改革。万恶的户籍制度也开始了破冰之旅。
        *人民币国际化：汇率改革(利率市场化和汇率自由化)，把货币蓄水池建到国外去。依仗就是正在转型升级的制造业和3.5w亿美金的外汇储备。
        * 垄断领域开放. 
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;PS:现在发生的是前 10 年宏观布局决定的,那么未来要发生的,一定是这 10 年宏观布局决定的&lt;/p&gt;
 
@@ -238,13 +287,14 @@
   &lt;li&gt;
     &lt;h2 id=&quot;section-5&quot;&gt;六大危机&lt;/h2&gt;
 
-    &lt;pre&gt;&lt;code&gt; *人口红利还能享受多久 (预计2016全面放开二胎，老龄化的压力已经愈来愈大)
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; *人口红利还能享受多久 (预计2016全面放开二胎，老龄化的压力已经愈来愈大)
  *社保的危机。
  *国进民退的危机。
  *产业升级依旧是个遥远的神话. 
  *资源透支危机，水资源危机尤其突出. 
  *粮食的危机. 
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;section-6&quot;&gt;社保&lt;/h2&gt;
@@ -257,11 +307,12 @@
   &lt;li&gt;
     &lt;h2 id=&quot;section-7&quot;&gt;对策&lt;/h2&gt;
 
-    &lt;pre&gt;&lt;code&gt; *中央向地方让渡财权和事权，鼓励地方改革创新。
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; *中央向地方让渡财权和事权，鼓励地方改革创新。
  *西部大开发与东官西调(产业转移是一项重要战略)。
  *减税刻不容缓(重复征税特别严重)。
  *深化关键领域改革(金融市场和国企改革).
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;section-8&quot;&gt;其他&lt;/h2&gt;
@@ -272,10 +323,11 @@
 
 &lt;p&gt;&lt;strong&gt;发达国家经济增值法力的原因:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;       *  长期人口负增长使人口老龄化严重。
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       *  长期人口负增长使人口老龄化严重。
        *  债务过高。
        *  制度红利已经使用干净。
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;分税制:&lt;/strong&gt; 上个世纪90年代的分税制导致中央攫取80%的财富，而承担更多民生相关的地方政府只占有20%的收入，在吃饭财政的压力下，地方政府在教育，医疗等民生方便基本无所作为。&lt;/p&gt;
 
@@ -314,8 +366,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Oct 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china-ice-economic-truth.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china-ice-economic-truth.html</guid>
+        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china_ice_economic_truth.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/19/china_ice_economic_truth.html</guid>
         
         
         <category>经济</category>
@@ -342,8 +394,8 @@
 
 </description>
         <pubDate>Sun, 18 Oct 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what-is-hcm.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what-is-hcm.html</guid>
+        <link>http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what_is_hcm.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E7%BB%8F%E6%B5%8E/2015/10/18/what_is_hcm.html</guid>
         
         
         <category>经济</category>
@@ -409,8 +461,8 @@
 
 </description>
         <pubDate>Mon, 28 Sep 2015 02:51:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey-to-west.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey-to-west.html</guid>
+        <link>http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey_to_west.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/%E6%96%87%E5%AD%A6/2015/09/28/journey_to_west.html</guid>
         
         
         <category>文学</category>
@@ -518,8 +570,8 @@
 &lt;img src=&quot;http://7xn2gs.com1.z0.glb.clouddn.com/0D2A6011-630A-4D16-9DB6-07981C3F0A88.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 20:40:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/mobile/performance/2015/09/26/app-performance-ctrip.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/mobile/performance/2015/09/26/app-performance-ctrip.html</guid>
+        <link>http://eddiedou.github.io/mobile/performance/2015/09/26/app_performance_ctrip.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/mobile/performance/2015/09/26/app_performance_ctrip.html</guid>
         
         
         <category>mobile</category>
@@ -653,8 +705,8 @@
 &lt;p&gt;决定投资者投资成败的关键在于投资者的耐心、独立精神、基本常识、对痛苦的忍耐力、坦率、超然、坚持不懈、脑袋灵活、主动承认错误的精神，以及不受别人慌乱的影响，坚持到投资获得成功的能力。至关重要的是要能够抵抗得了你人性的弱点。&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Sep 2015 07:26:25 +0800</pubDate>
-        <link>http://eddiedou.github.io/investment/2015/09/26/peter-lynch-copy.html</link>
-        <guid isPermaLink="true">http://eddiedou.github.io/investment/2015/09/26/peter-lynch-copy.html</guid>
+        <link>http://eddiedou.github.io/investment/2015/09/26/peter_lynch-copy.html</link>
+        <guid isPermaLink="true">http://eddiedou.github.io/investment/2015/09/26/peter_lynch-copy.html</guid>
         
         
         <category>investment</category>
